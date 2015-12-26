@@ -1,0 +1,138 @@
+nav{
+	background: #ccc;
+	height: 50px;
+}
+.banner{
+	background: #777;
+	height: 700px;
+}
+nav ul{
+	margin: 0;
+	list-style: none;
+	float: right;
+}
+nav ul li,nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+
+}
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;/*变成行内block?*/
+	height: inherit;/*继承母元素 让整个可以触发的地方变大要跟上面的标签联合使用*/
+	color: #fff;
+}
+nav ul li.logo{
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+
+}
+.banner .inner{
+	max-width: 300px;
+	text-align: center;/*让文字居中*/
+	margin:0 auto;/*让整段文字居与屏幕中央上下margin为0 左右auto史其居中*/
+	position: relative;
+	top: 160px;
+}
+button{
+	border: none;
+	background: #333;
+	color: #eee;
+	
+}
+.banner button{
+	padding: 14px 40px;
+}
+.banner .inner .more{
+	margin-top: 320px;
+}
+.sub-heading{
+	line-height: 30px;
+	margin:30px，0;
+}
+.logo{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;/*设置字间距*/
+	
+}
+.logo a{
+	color: #fff;
+}
+.green-section{
+	background: #089DB0;
+	color:#fff;
+	text-align: center;
+	padding: 100px 0;
+}
+.wrapper{
+	max-width: 1080px;
+	margin:0 auto;
+}
+.hr{
+	width:100%;
+	height: 2px;
+	margin: 0 auto;
+
+}
+/*关于那条横线的*/
+.green-section .hr{
+	background: #078494;
+	width: 60%;
+}
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #0D6F7C;
+	transform: rotate(45deg);/*旋转45度*/
+	margin:20px;
+
+
+}
+.icon-group{
+	margin-top: 60px;
+}
+.gray-section .img-section{
+	width: 45%;
+	height: 100px;
+}
+.img-section img{
+	width: 100%;
+}
+.gray-section .text-section{
+	width: 55%;
+}
+.article-preview > div{
+	float: left;
+
+}
+.article-preview:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.text-section{
+	position: relative;
+	top: 68px;
+	left: 50px;
+}
+.text-section h2{
+	margin-bottom: 20px;
+}
+.text-section p{
+	font-size: 18px;
+	letter-spacing: 1px
+}
+.text-section .sub-heading{
+	font-size: 22px;
+	margin-top: 0;
+}
+
+
+
+
+
