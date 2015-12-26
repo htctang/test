@@ -1,0 +1,10 @@
+.main{
+	width: 450px;
+	height: auto;
+	border: 1px solid #666666;
+	margin: 100px auto;
+	background: #ffffff;
+	padding: 20px;
+	font-size: 18px;
+	font-family: "宋体";
+}

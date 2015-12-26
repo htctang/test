@@ -1,0 +1,160 @@
+nav{
+	background: #ccc;
+	height: 50px;
+}
+
+nav .ul a,.logo{
+	
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 15px;
+}
+nav .ul{
+	float: right;
+	margin: 0;
+}
+nav .ul a{
+	color: #fff;
+	text-decoration: none;
+	height: inherit;
+}
+.logo a{
+	text-decoration: none;
+	height: inherit;
+	color: #fff;
+	float: left;
+	margin-left: 15px;
+
+}
+.banner{
+	background: #777;
+	height: 700px;
+}
+.banner .inner{
+	max-width: 300px;
+	text-align: center;/*让这个东西居中*/
+	margin: 0 auto;/*上下 左右*/
+	top: 160px;
+	position: relative;/*相对位置 可以自由变化*/
+}
+.banner button{
+	padding: 14px 40px;
+	border: none;
+	color: #eee;
+	background: #333;
+	
+	margin-top: 20px;
+}
+.banner .more{
+	margin-top: 240px;
+}
+.sub-heading{
+	line-height: 30px;
+	margin: 30px,0;
+}
+.green-section{
+	background: #089DB0;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin: 0 auto;
+
+}
+.green-section .hr{
+	background: #078494;
+	width: 60%;
+}
+.wrapper{
+	max-width: 1080px;
+	text-align: center;
+}
+.green-section .wrapper p{
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+.green-section .icon-group{
+	margin-top: 40px;
+}
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #0D6F7C;
+	transform:rotate(45deg);
+	margin: 20px;
+
+}
+.first-section{
+	background: #252F34;
+	color: #fff;
+}
+ .text-section{
+	width: 55%;
+	
+}
+.img-section{
+	width: 45%;
+
+
+}
+.img-section img{
+	width: 100%;
+}
+/* .first-section:nth-child(odd){
+ 	 background-color: rgba(0,0,0,0.02);
+ } */ 
+ 
+.first-section >div{
+	float: right;
+}
+/*要清楚父级元素的浮动*/
+.first-section:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.text-section{
+	position: relative;
+	top: 68px;
+	left: 50px;
+}
+.text-section h2{
+	margin-bottom: 20px;
+}
+.text-section .sub-heading{
+	font-size: 20px;
+}
+.text-section p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.purple-section{
+	padding: 60px;
+	background: #3F3965;
+	color: #fff;
+}
+.purple-section .heading-wrapper{
+	text-align: center;
+}
+.purple-section .hr{
+	background: #373258;
+	width: 60%;
+}
+.crad{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding: 20px;
+	border: 1px solid black;
+}
+/*专门清除父控件的浮动*/
+.clearfix{
+	clear: '';
+	display: block;
+	clear: both;
+}
